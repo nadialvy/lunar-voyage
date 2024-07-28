@@ -12,6 +12,7 @@ struct lunar_voyageApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(ApodManager())
         }
     }
 }

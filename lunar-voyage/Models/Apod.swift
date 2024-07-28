@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Apod {
+struct Apod: Decodable {
     var date: String
     var explanation: String
     var media_type: String

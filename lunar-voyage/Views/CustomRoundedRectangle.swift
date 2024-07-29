@@ -10,7 +10,7 @@ import SwiftUI
 struct CustomRoundedRectangle<Content: View>: View {
     let content:Content
     
-    init(@ViewBuilder content: () -> Content) {
+    init(@ViewBuilder content: () -> Content){
         self.content = content()
     }
     
@@ -29,8 +29,9 @@ struct CustomRoundedRectangle<Content: View>: View {
                         .opacity(0.3)
                 )
                 .padding()
-
+            
             content
-        }
+                .padding()
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)        }
     }
 }

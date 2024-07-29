@@ -11,12 +11,8 @@ import SwiftUI
 struct LunarVoyageApp: App {
     var body: some Scene {
         WindowGroup {
-                
-                ContentView()
-                    .environmentObject(ApodManager())
-            
-            
-            
+            ContentView()
+                .environmentObject(ApodManager())
         }
     }
 }

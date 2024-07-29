@@ -13,10 +13,18 @@ struct DashboardView: View {
     var body: some View {
         ScrollView{
             ZStack{
-                RoundedRectangle(cornerRadius: 20)
-                    .fill(.white)
-                    .opacity(0.25)
-                    .shadow(radius: 10)
+                RoundedRectangle(cornerRadius: 34)
+                    .fill(Color("NavyGalaxy"))
+                    .opacity(1)
+                    .shadow(
+                        color: Color.white.opacity(0.5),
+                        radius: 10
+                    )
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 34)
+                            .stroke(Color.white, lineWidth: 1)
+                            .opacity(0.3)
+                    )
                     .padding()
                 
                 ApodView(apodData: apodManager.apod ?? Apod(

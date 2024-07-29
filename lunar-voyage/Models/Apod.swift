@@ -17,16 +17,4 @@ struct Apod: Decodable {
     var url: String?
     var hdurl: String?
     var copyright: String?
-
-    enum CodingKeys: String, CodingKey {
-        case date
-        case explanation
-        case media_type
-        case service_version
-        case thumbnail_url
-        case title
-        case url
-        case hdurl
-        case copyright
-    }
 }

@@ -9,13 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-            TabView {
-                DashboardView()
-                    .tabItem {
-                        Image(systemName: "safari")
-                    }
-            }
+        TabView {
+            DashboardView()
+                .tabItem {
+                    Image(systemName: "safari")
+                        .foregroundColor(Color("NavyGalaxy"))
+                }
+                .background(LinearGradient(colors: [Color("SnowBlue"), Color("PastelBlue"), Color("LavenderPurple")], startPoint: .top, endPoint: .bottom))
         }
+    }
 }
 
 

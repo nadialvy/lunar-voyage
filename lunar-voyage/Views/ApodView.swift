@@ -22,7 +22,7 @@ struct ApodView: View {
                 switch phase {
                 case .empty: ProgressView()
                         .tint(.white)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 280, height: 200)
                         .padding()
                 case .success(let image):
                     image
@@ -34,7 +34,7 @@ struct ApodView: View {
                     Image(systemName: "photo")
                         .resizable()
                         .scaledToFill()
-                        .frame(width: 200, height: 200)
+                        .frame(width: 280, height: 200)
                 @unknown default:
                     EmptyView()
                 }
@@ -45,8 +45,9 @@ struct ApodView: View {
                 .padding()
             Text("\(String(apodData.explanation?.prefix(100) ?? "No explanation available..."))")
                 .foregroundStyle(.white)
-                .padding(.horizontal)
+                .padding(.horizontal, 24)
                 .padding(.bottom)
+                .multilineTextAlignment(.center)
         }
         .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .leading)
         .padding()
@@ -55,6 +56,6 @@ struct ApodView: View {
 
 #Preview {
     ApodView(
-        apodData: Apod(date: "-", explanation: "-", media_type: "-", service_version: "-", thumbnail_url: "-", title: "-", url: "-")
+        apodData: Apod(date: "halo", explanation: "lorem ipsum lorem ipsum  lorem ipsum  lorem ipsum  lorem ipsum ", media_type: "-", service_version: "-", thumbnail_url: "-", title: "-", url: "-")
     )
 }

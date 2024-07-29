@@ -9,24 +9,10 @@ import SwiftUI
 
 struct DashboardView: View {
     @EnvironmentObject var apodManager: ApodManager
-
+    
     var body: some View {
         ScrollView{
-            ZStack{
-                RoundedRectangle(cornerRadius: 34)
-                    .fill(Color("NavyGalaxy"))
-                    .opacity(1)
-                    .shadow(
-                        color: Color.white.opacity(0.5),
-                        radius: 10
-                    )
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 34)
-                            .stroke(Color.white, lineWidth: 1)
-                            .opacity(0.3)
-                    )
-                    .padding()
-                
+            CustomRoundedRectangle{
                 ApodView(apodData: apodManager.apod ?? Apod(
                     date: "N/A",
                     explanation: "No explanation available.",

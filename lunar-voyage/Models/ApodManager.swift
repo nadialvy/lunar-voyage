@@ -9,7 +9,7 @@ import Foundation
 import Alamofire
 
 class ApodManager: ObservableObject {
-    @Published var apod: Apod = Apod(date: "", explanation: "", media_type: "", service_version: "", thumbnail_url: "", title: "", url: "")
+    @Published var apod: Apod?
     
     init(){
         getApod()

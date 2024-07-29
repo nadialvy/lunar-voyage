@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3DF68D4E2C56B4DE0069C757 /* lunar_voyageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF68D4D2C56B4DE0069C757 /* lunar_voyageApp.swift */; };
+		3DF68D4E2C56B4DE0069C757 /* LunarVoyageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF68D4D2C56B4DE0069C757 /* LunarVoyageApp.swift */; };
 		3DF68D502C56B4DE0069C757 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF68D4F2C56B4DE0069C757 /* ContentView.swift */; };
 		3DF68D522C56B4E00069C757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF68D512C56B4E00069C757 /* Assets.xcassets */; };
 		3DF68D552C56B4E00069C757 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF68D542C56B4E00069C757 /* Preview Assets.xcassets */; };
@@ -17,11 +17,12 @@
 		3DF68D662C56BD2E0069C757 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3DF68D652C56BD2E0069C757 /* Alamofire */; };
 		3DF68D682C56BD2E0069C757 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 3DF68D672C56BD2E0069C757 /* AlamofireDynamic */; };
 		3DF68D6C2C56D1EF0069C757 /* ApodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF68D6B2C56D1EF0069C757 /* ApodView.swift */; };
+		3DF68D6E2C56D5160069C757 /* ApodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF68D6D2C56D5160069C757 /* ApodDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3DF68D4A2C56B4DE0069C757 /* lunar-voyage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lunar-voyage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DF68D4D2C56B4DE0069C757 /* lunar_voyageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lunar_voyageApp.swift; sourceTree = "<group>"; };
+		3DF68D4D2C56B4DE0069C757 /* LunarVoyageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunarVoyageApp.swift; sourceTree = "<group>"; };
 		3DF68D4F2C56B4DE0069C757 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3DF68D512C56B4E00069C757 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DF68D542C56B4E00069C757 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -29,6 +30,7 @@
 		3DF68D602C56BC420069C757 /* Apod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apod.swift; sourceTree = "<group>"; };
 		3DF68D622C56BCB50069C757 /* ApodManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodManager.swift; sourceTree = "<group>"; };
 		3DF68D6B2C56D1EF0069C757 /* ApodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodView.swift; sourceTree = "<group>"; };
+		3DF68D6D2C56D5160069C757 /* ApodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +69,7 @@
 				3DF68D5C2C56BAB60069C757 /* Views */,
 				3DF68D5D2C56BADC0069C757 /* Page Views */,
 				3DF68D4F2C56B4DE0069C757 /* ContentView.swift */,
-				3DF68D4D2C56B4DE0069C757 /* lunar_voyageApp.swift */,
+				3DF68D4D2C56B4DE0069C757 /* LunarVoyageApp.swift */,
 				3DF68D512C56B4E00069C757 /* Assets.xcassets */,
 				3DF68D532C56B4E00069C757 /* Preview Content */,
 			);
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				3DF68D5E2C56BB1B0069C757 /* DashboardView.swift */,
+				3DF68D6D2C56D5160069C757 /* ApodDetailView.swift */,
 			);
 			path = "Page Views";
 			sourceTree = "<group>";
@@ -188,7 +191,8 @@
 				3DF68D612C56BC420069C757 /* Apod.swift in Sources */,
 				3DF68D5F2C56BB1B0069C757 /* DashboardView.swift in Sources */,
 				3DF68D6C2C56D1EF0069C757 /* ApodView.swift in Sources */,
-				3DF68D4E2C56B4DE0069C757 /* lunar_voyageApp.swift in Sources */,
+				3DF68D4E2C56B4DE0069C757 /* LunarVoyageApp.swift in Sources */,
+				3DF68D6E2C56D5160069C757 /* ApodDetailView.swift in Sources */,
 				3DF68D632C56BCB50069C757 /* ApodManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

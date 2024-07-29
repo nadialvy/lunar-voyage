@@ -18,7 +18,7 @@ struct ApodView: View {
                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 .foregroundStyle(.white)
                 .padding()
-            AsyncImage(url: URL(string: apodData.thumbnail_url)){phase in
+            AsyncImage(url: URL(string: (apodData.thumbnail_url ?? apodData.hdurl) ?? "")){phase in
                 switch phase {
                 case .empty: ProgressView()
                         .tint(.white)
@@ -39,11 +39,11 @@ struct ApodView: View {
                     EmptyView()
                 }
             }
-            Text("\(apodData.title) (\(apodData.date))")
+            Text(apodData.title ?? "No Title")
                 .foregroundStyle(.white)
                 .fontWeight(.semibold)
                 .padding()
-            Text("\(String(apodData.explanation.prefix(100)))...")
+            Text("\(String(apodData.explanation?.prefix(100) ?? "No explanation available..."))")
                 .foregroundStyle(.white)
                 .padding(.horizontal)
                 .padding(.bottom)

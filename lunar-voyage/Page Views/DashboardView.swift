@@ -18,8 +18,18 @@ struct DashboardView: View {
                     .opacity(0.25)
                     .shadow(radius: 10)
                     .padding()
-
-                ApodView(apodData: apodManager.apod)
+                
+                ApodView(apodData: apodManager.apod ?? Apod(
+                    date: "N/A",
+                    explanation: "No explanation available.",
+                    media_type: "N/A",
+                    service_version: "N/A",
+                    thumbnail_url: nil,
+                    title: "No Title",
+                    url: nil,
+                    hdurl: nil,
+                    copyright: nil
+                ))
             }
         }
     }

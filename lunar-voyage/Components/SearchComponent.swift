@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SearchComponent: View {
     @State var searchValue: String = ""
-
+    
     var body: some View {
         VStack{
             HStack{

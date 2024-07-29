@@ -24,7 +24,7 @@ struct ContentView: View {
             }
             TabViewComponent(selectedTab: $selectedTab)
             
-                    }
+        }
         .background(.clear)
     }
 }

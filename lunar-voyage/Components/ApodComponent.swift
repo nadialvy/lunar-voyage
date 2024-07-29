@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ApodView: View {
+struct ApodComponent: View {
     
     var apodData: Apod
     
@@ -55,7 +55,7 @@ struct ApodView: View {
 }
 
 #Preview {
-    ApodView(
+    ApodComponent(
         apodData: Apod(date: "halo", explanation: "lorem ipsum lorem ipsum  lorem ipsum  lorem ipsum  lorem ipsum ", media_type: "-", service_version: "-", thumbnail_url: "-", title: "-", url: "-")
     )
 }

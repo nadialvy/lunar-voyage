@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CustomRoundedRectangle<Content: View>: View {
+struct NavyCardComponent<Content: View>: View {
     let content:Content
     
     init(@ViewBuilder content: () -> Content){

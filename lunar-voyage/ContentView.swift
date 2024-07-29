@@ -8,15 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var selectedTab = 0
     var body: some View {
-        TabView {
-            DashboardView()
-                .tabItem {
-                    Image(systemName: "safari")
-                        .foregroundColor(Color("NavyGalaxy"))
-                }
-                .background(LinearGradient(colors: [Color("SnowBlue"), Color("PastelBlue"), Color("LavenderPurple")], startPoint: .top, endPoint: .bottom))
-        }
+        ZStack(alignment: .bottom){
+            TabView(selection: $selectedTab){
+                DashboardView()
+                    .tag(0)
+                    .toolbarBackground(.hidden, for: .tabBar)
+                    .background(LinearGradient(colors: [Color("SnowBlue"), Color("PastelBlue"), Color("LavenderPurple")], startPoint: .top, endPoint: .bottom))
+                
+                OrbitingView()
+                    .tag(1)
+                WeatherView()
+                    .tag(2)
+            }
+            TabViewComponent(selectedTab: $selectedTab)
+            
+                    }
+        .background(.clear)
     }
 }
 

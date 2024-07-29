@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D3A72EF2C577A8800EDFB4A /* CustomRoundedRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A72EE2C577A8800EDFB4A /* CustomRoundedRectangle.swift */; };
-		3D3A72F12C5790EE00EDFB4A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A72F02C5790EE00EDFB4A /* SearchView.swift */; };
+		3D3A72EF2C577A8800EDFB4A /* NavyCardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A72EE2C577A8800EDFB4A /* NavyCardComponent.swift */; };
+		3D3A72F12C5790EE00EDFB4A /* SearchComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A72F02C5790EE00EDFB4A /* SearchComponent.swift */; };
 		3D3A72F42C57995C00EDFB4A /* RoundedTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A72F32C57995C00EDFB4A /* RoundedTextFieldStyle.swift */; };
+		3D3A72F62C579F2200EDFB4A /* OrbitingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A72F52C579F2200EDFB4A /* OrbitingView.swift */; };
+		3D3A72F82C579F8D00EDFB4A /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A72F72C579F8D00EDFB4A /* WeatherView.swift */; };
+		3D3A72FB2C57A4C600EDFB4A /* TabItemComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A72FA2C57A4C600EDFB4A /* TabItemComponent.swift */; };
+		3D3A72FE2C57BEA600EDFB4A /* TabbedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A72FD2C57BEA600EDFB4A /* TabbedItem.swift */; };
+		3D3A73012C57C06100EDFB4A /* TabViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A73002C57C06100EDFB4A /* TabViewComponent.swift */; };
 		3DF68D4E2C56B4DE0069C757 /* LunarVoyageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF68D4D2C56B4DE0069C757 /* LunarVoyageApp.swift */; };
 		3DF68D502C56B4DE0069C757 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF68D4F2C56B4DE0069C757 /* ContentView.swift */; };
 		3DF68D522C56B4E00069C757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF68D512C56B4E00069C757 /* Assets.xcassets */; };
@@ -19,14 +24,19 @@
 		3DF68D632C56BCB50069C757 /* ApodManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF68D622C56BCB50069C757 /* ApodManager.swift */; };
 		3DF68D662C56BD2E0069C757 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3DF68D652C56BD2E0069C757 /* Alamofire */; };
 		3DF68D682C56BD2E0069C757 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 3DF68D672C56BD2E0069C757 /* AlamofireDynamic */; };
-		3DF68D6C2C56D1EF0069C757 /* ApodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF68D6B2C56D1EF0069C757 /* ApodView.swift */; };
+		3DF68D6C2C56D1EF0069C757 /* ApodComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF68D6B2C56D1EF0069C757 /* ApodComponent.swift */; };
 		3DF68D6E2C56D5160069C757 /* ApodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF68D6D2C56D5160069C757 /* ApodDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3D3A72EE2C577A8800EDFB4A /* CustomRoundedRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRoundedRectangle.swift; sourceTree = "<group>"; };
-		3D3A72F02C5790EE00EDFB4A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		3D3A72EE2C577A8800EDFB4A /* NavyCardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavyCardComponent.swift; sourceTree = "<group>"; };
+		3D3A72F02C5790EE00EDFB4A /* SearchComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchComponent.swift; sourceTree = "<group>"; };
 		3D3A72F32C57995C00EDFB4A /* RoundedTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextFieldStyle.swift; sourceTree = "<group>"; };
+		3D3A72F52C579F2200EDFB4A /* OrbitingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitingView.swift; sourceTree = "<group>"; };
+		3D3A72F72C579F8D00EDFB4A /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		3D3A72FA2C57A4C600EDFB4A /* TabItemComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemComponent.swift; sourceTree = "<group>"; };
+		3D3A72FD2C57BEA600EDFB4A /* TabbedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedItem.swift; sourceTree = "<group>"; };
+		3D3A73002C57C06100EDFB4A /* TabViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewComponent.swift; sourceTree = "<group>"; };
 		3DF68D4A2C56B4DE0069C757 /* lunar-voyage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lunar-voyage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF68D4D2C56B4DE0069C757 /* LunarVoyageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunarVoyageApp.swift; sourceTree = "<group>"; };
 		3DF68D4F2C56B4DE0069C757 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,7 +45,7 @@
 		3DF68D5E2C56BB1B0069C757 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		3DF68D602C56BC420069C757 /* Apod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apod.swift; sourceTree = "<group>"; };
 		3DF68D622C56BCB50069C757 /* ApodManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodManager.swift; sourceTree = "<group>"; };
-		3DF68D6B2C56D1EF0069C757 /* ApodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodView.swift; sourceTree = "<group>"; };
+		3DF68D6B2C56D1EF0069C757 /* ApodComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodComponent.swift; sourceTree = "<group>"; };
 		3DF68D6D2C56D5160069C757 /* ApodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +70,23 @@
 			path = CustomStyle;
 			sourceTree = "<group>";
 		};
+		3D3A72FC2C57BE2000EDFB4A /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				3D3A72EE2C577A8800EDFB4A /* NavyCardComponent.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		3D3A72FF2C57BF4C00EDFB4A /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				3D3A72FA2C57A4C600EDFB4A /* TabItemComponent.swift */,
+				3D3A73002C57C06100EDFB4A /* TabViewComponent.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
 		3DF68D412C56B4DE0069C757 = {
 			isa = PBXGroup;
 			children = (
@@ -81,8 +108,8 @@
 			children = (
 				3D3A72F22C5798E400EDFB4A /* CustomStyle */,
 				3DF68D5B2C56BAB00069C757 /* Models */,
-				3DF68D5C2C56BAB60069C757 /* Views */,
-				3DF68D5D2C56BADC0069C757 /* Page Views */,
+				3DF68D5C2C56BAB60069C757 /* Components */,
+				3DF68D5D2C56BADC0069C757 /* Views */,
 				3DF68D4F2C56B4DE0069C757 /* ContentView.swift */,
 				3DF68D4D2C56B4DE0069C757 /* LunarVoyageApp.swift */,
 				3DF68D512C56B4E00069C757 /* Assets.xcassets */,
@@ -102,29 +129,33 @@
 		3DF68D5B2C56BAB00069C757 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3D3A72FD2C57BEA600EDFB4A /* TabbedItem.swift */,
 				3DF68D602C56BC420069C757 /* Apod.swift */,
 				3DF68D622C56BCB50069C757 /* ApodManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		3DF68D5C2C56BAB60069C757 /* Views */ = {
+		3DF68D5C2C56BAB60069C757 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				3DF68D6B2C56D1EF0069C757 /* ApodView.swift */,
-				3D3A72EE2C577A8800EDFB4A /* CustomRoundedRectangle.swift */,
-				3D3A72F02C5790EE00EDFB4A /* SearchView.swift */,
+				3D3A72FF2C57BF4C00EDFB4A /* TabView */,
+				3D3A72FC2C57BE2000EDFB4A /* Card */,
+				3DF68D6B2C56D1EF0069C757 /* ApodComponent.swift */,
+				3D3A72F02C5790EE00EDFB4A /* SearchComponent.swift */,
 			);
-			path = Views;
+			path = Components;
 			sourceTree = "<group>";
 		};
-		3DF68D5D2C56BADC0069C757 /* Page Views */ = {
+		3DF68D5D2C56BADC0069C757 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				3DF68D5E2C56BB1B0069C757 /* DashboardView.swift */,
 				3DF68D6D2C56D5160069C757 /* ApodDetailView.swift */,
+				3D3A72F52C579F2200EDFB4A /* OrbitingView.swift */,
+				3D3A72F72C579F8D00EDFB4A /* WeatherView.swift */,
 			);
-			path = "Page Views";
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,16 +235,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D3A72F12C5790EE00EDFB4A /* SearchView.swift in Sources */,
-				3D3A72EF2C577A8800EDFB4A /* CustomRoundedRectangle.swift in Sources */,
+				3D3A72F62C579F2200EDFB4A /* OrbitingView.swift in Sources */,
+				3D3A72F12C5790EE00EDFB4A /* SearchComponent.swift in Sources */,
+				3D3A72EF2C577A8800EDFB4A /* NavyCardComponent.swift in Sources */,
+				3D3A72F82C579F8D00EDFB4A /* WeatherView.swift in Sources */,
 				3DF68D502C56B4DE0069C757 /* ContentView.swift in Sources */,
 				3DF68D612C56BC420069C757 /* Apod.swift in Sources */,
 				3DF68D5F2C56BB1B0069C757 /* DashboardView.swift in Sources */,
-				3DF68D6C2C56D1EF0069C757 /* ApodView.swift in Sources */,
+				3D3A72FB2C57A4C600EDFB4A /* TabItemComponent.swift in Sources */,
+				3DF68D6C2C56D1EF0069C757 /* ApodComponent.swift in Sources */,
 				3DF68D4E2C56B4DE0069C757 /* LunarVoyageApp.swift in Sources */,
 				3DF68D6E2C56D5160069C757 /* ApodDetailView.swift in Sources */,
 				3DF68D632C56BCB50069C757 /* ApodManager.swift in Sources */,
+				3D3A72FE2C57BEA600EDFB4A /* TabbedItem.swift in Sources */,
 				3D3A72F42C57995C00EDFB4A /* RoundedTextFieldStyle.swift in Sources */,
+				3D3A73012C57C06100EDFB4A /* TabViewComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

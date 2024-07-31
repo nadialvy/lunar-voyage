@@ -43,6 +43,7 @@ struct ApodComponent: View {
                 .foregroundStyle(.white)
                 .fontWeight(.semibold)
                 .padding()
+                .multilineTextAlignment(.center)
             Text("\(String(apodData.explanation?.prefix(100) ?? "No explanation available..."))")
                 .foregroundStyle(.white)
                 .padding(.horizontal, 24)

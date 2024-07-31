@@ -15,7 +15,7 @@ struct SearchComponent: View {
             HStack{
                 VStack(alignment: .leading){
                     Text("Let's Explore")
-                        .font(.title)
+                        .font(.custom("sd galaxy", size: 24))
                         .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                         .foregroundStyle(.white)
                     Text("Travel the galaxy")

@@ -32,6 +32,7 @@ struct NavyCardComponent<Content: View>: View {
             
             content
                 .padding()
-            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)        }
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)       
+        }
     }
 }

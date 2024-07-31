@@ -15,10 +15,10 @@ struct ContentView: View {
                 DashboardView()
                     .tag(0)
                     .toolbarBackground(.hidden, for: .tabBar)
-                    .background(LinearGradient(colors: [Color("SnowBlue"), Color("PastelBlue"), Color("LavenderPurple")], startPoint: .top, endPoint: .bottom))
-                
+                                    
                 OrbitingView()
                     .tag(1)
+
                 WeatherView()
                     .tag(2)
             }

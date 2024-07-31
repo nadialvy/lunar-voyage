@@ -11,24 +11,18 @@ struct DashboardView: View {
     @EnvironmentObject var apodManager: ApodManager
     
     var body: some View {
-        ScrollView{
-            VStack{
+        NavigationView {
+            ScrollView{
                 NavyCardComponent{
                     SearchComponent()
                 }
                 
-                NavyCardComponent{
-                    ApodComponent(apodData: apodManager.apod ?? Apod(
-                        date: "N/A",
-                        explanation: "No explanation available.",
-                        media_type: "N/A",
-                        service_version: "N/A",
-                        thumbnail_url: nil,
-                        title: "No Title",
-                        url: nil,
-                        hdurl: nil,
-                        copyright: nil
-                    ))
+                NavigationLink{
+                    MoonPhaseDetail()
+                } label : {
+                    NavyCardComponent {
+                        MoonPhaseComponent()
+                    }
                 }
                 
                 NavyCardComponent{
@@ -44,8 +38,9 @@ struct DashboardView: View {
                         copyright: nil
                     ))
                 }
-                
+
             }
+            .background(LinearGradient(colors: [Color("SnowBlue"), Color("PastelBlue"), Color("LavenderPurple")], startPoint: .top, endPoint: .bottom))
         }
     }
 }

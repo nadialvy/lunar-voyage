@@ -118,6 +118,6 @@ fastlane/test_output
 iOSInjectionProject/
 
 # API KEY
-KeyConstant.swift
+lunar-voyage/Constant/KeyConstant.swift
 
 # End of https://www.toptal.com/developers/gitignore/api/swift,macos

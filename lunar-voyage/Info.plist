@@ -4,7 +4,7 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>sd galaxy</string>
+		<string>sd galaxy.ttf</string>
 	</array>
 </dict>
 </plist>

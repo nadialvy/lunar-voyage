@@ -20,6 +20,7 @@
 		3D3A73252C5A066B00EDFB4A /* MoonPhaseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A73242C5A066B00EDFB4A /* MoonPhaseDetail.swift */; };
 		3D3A73272C5A073800EDFB4A /* MoonPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A73262C5A073800EDFB4A /* MoonPhase.swift */; };
 		3D3A73292C5A07B000EDFB4A /* MoonPhaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A73282C5A07B000EDFB4A /* MoonPhaseManager.swift */; };
+		3D3A732B2C5A0BD300EDFB4A /* KeyConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A732A2C5A0BD300EDFB4A /* KeyConstant.swift */; };
 		3DF68D4E2C56B4DE0069C757 /* LunarVoyageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF68D4D2C56B4DE0069C757 /* LunarVoyageApp.swift */; };
 		3DF68D502C56B4DE0069C757 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF68D4F2C56B4DE0069C757 /* ContentView.swift */; };
 		3DF68D522C56B4E00069C757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF68D512C56B4E00069C757 /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		3D3A73242C5A066B00EDFB4A /* MoonPhaseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonPhaseDetail.swift; sourceTree = "<group>"; };
 		3D3A73262C5A073800EDFB4A /* MoonPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonPhase.swift; sourceTree = "<group>"; };
 		3D3A73282C5A07B000EDFB4A /* MoonPhaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonPhaseManager.swift; sourceTree = "<group>"; };
+		3D3A732A2C5A0BD300EDFB4A /* KeyConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyConstant.swift; sourceTree = "<group>"; };
 		3DF68D4A2C56B4DE0069C757 /* lunar-voyage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lunar-voyage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF68D4D2C56B4DE0069C757 /* LunarVoyageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunarVoyageApp.swift; sourceTree = "<group>"; };
 		3DF68D4F2C56B4DE0069C757 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +108,14 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		3D3A732C2C5A0BDD00EDFB4A /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				3D3A732A2C5A0BD300EDFB4A /* KeyConstant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
 		3DF68D412C56B4DE0069C757 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +135,7 @@
 		3DF68D4C2C56B4DE0069C757 /* lunar-voyage */ = {
 			isa = PBXGroup;
 			children = (
+				3D3A732C2C5A0BDD00EDFB4A /* Constant */,
 				3D3A72F22C5798E400EDFB4A /* CustomStyle */,
 				3DF68D5B2C56BAB00069C757 /* Models */,
 				3DF68D5C2C56BAB60069C757 /* Components */,
@@ -274,6 +285,7 @@
 				3DF68D4E2C56B4DE0069C757 /* LunarVoyageApp.swift in Sources */,
 				3DF68D6E2C56D5160069C757 /* ApodDetailView.swift in Sources */,
 				3DF68D632C56BCB50069C757 /* ApodManager.swift in Sources */,
+				3D3A732B2C5A0BD300EDFB4A /* KeyConstant.swift in Sources */,
 				3D3A72FE2C57BEA600EDFB4A /* TabbedItem.swift in Sources */,
 				3D3A72F42C57995C00EDFB4A /* RoundedTextFieldStyle.swift in Sources */,
 				3D3A73272C5A073800EDFB4A /* MoonPhase.swift in Sources */,

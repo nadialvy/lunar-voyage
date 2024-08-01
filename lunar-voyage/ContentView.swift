@@ -26,6 +26,7 @@ struct ContentView: View {
             
         }
         .background(.clear)
+        
     }
 }
 
@@ -33,4 +34,5 @@ struct ContentView: View {
 #Preview {
     ContentView()
         .environmentObject(ApodManager())
+        .environmentObject(MoonPhaseManager())
 }

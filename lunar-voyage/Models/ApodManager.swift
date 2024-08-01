@@ -15,8 +15,8 @@ class ApodManager: ObservableObject {
         getApod()
     }
     
-    func getApod(){
-        AF.request("https://api.nasa.gov/planetary/apod?api_key=\(NASA_API_KEY)&thumbs=true")
+    func getApod(){  
+        AF.request("\(NASE_BASE_URL)/apod?api_key=\(NASA_API_KEY)&thumbs=true")
             .responseDecodable(of: Apod.self){ response in
                 if let dataFromNetwork = response.value {
                     self.apod = dataFromNetwork

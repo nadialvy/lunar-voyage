@@ -27,7 +27,7 @@ struct TabItemComponent: View {
             }
             Spacer()
         }
-        .frame(width: isActive ? .infinity : 60, height: 60)
+        .frame(width: isActive ? nil : 60, height: 60)        
         .background(isActive ? Color("SnowBlue") : .clear)
         .cornerRadius(35)
     }

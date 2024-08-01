@@ -48,4 +48,5 @@ struct DashboardView: View {
 #Preview {
     DashboardView()
         .environmentObject(ApodManager())
+        .environmentObject(MoonPhaseManager())
 }

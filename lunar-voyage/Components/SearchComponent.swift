@@ -24,7 +24,7 @@ struct SearchComponent: View {
                 }
                 Spacer()
             }
-            TextField("", text: $searchValue, prompt: Text("Search").foregroundStyle(.navyGalaxy)).font(.custom("Montserrat", size: 16))
+            TextField("", text: $searchValue, prompt: Text("Search").foregroundStyle(.white)).font(.custom("Montserrat", size: 16))
                 .textFieldStyle(RoundedTextFieldStyle())
                 .padding(.top)
         }

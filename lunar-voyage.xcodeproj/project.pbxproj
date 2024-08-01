@@ -24,6 +24,8 @@
 		3D3A73302C5A78B400EDFB4A /* Montserrat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D3A732F2C5A78B400EDFB4A /* Montserrat-VariableFont_wght.ttf */; };
 		3D3A73352C5B6D8400EDFB4A /* ApiConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A73342C5B6D8400EDFB4A /* ApiConfig.swift */; };
 		3D3A73382C5B9F8D00EDFB4A /* CurrentDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A73372C5B9F8D00EDFB4A /* CurrentDate.swift */; };
+		3D3A733A2C5BDA6600EDFB4A /* PlanetConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A73392C5BDA6600EDFB4A /* PlanetConstant.swift */; };
+		3D3A733C2C5BE58B00EDFB4A /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A733B2C5BE58B00EDFB4A /* ColorExtension.swift */; };
 		3DF68D4E2C56B4DE0069C757 /* LunarVoyageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF68D4D2C56B4DE0069C757 /* LunarVoyageApp.swift */; };
 		3DF68D502C56B4DE0069C757 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF68D4F2C56B4DE0069C757 /* ContentView.swift */; };
 		3DF68D522C56B4E00069C757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF68D512C56B4E00069C757 /* Assets.xcassets */; };
@@ -55,6 +57,8 @@
 		3D3A732F2C5A78B400EDFB4A /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		3D3A73342C5B6D8400EDFB4A /* ApiConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConfig.swift; sourceTree = "<group>"; };
 		3D3A73372C5B9F8D00EDFB4A /* CurrentDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDate.swift; sourceTree = "<group>"; };
+		3D3A73392C5BDA6600EDFB4A /* PlanetConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetConstant.swift; sourceTree = "<group>"; };
+		3D3A733B2C5BE58B00EDFB4A /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		3DF68D4A2C56B4DE0069C757 /* lunar-voyage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lunar-voyage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF68D4D2C56B4DE0069C757 /* LunarVoyageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunarVoyageApp.swift; sourceTree = "<group>"; };
 		3DF68D4F2C56B4DE0069C757 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				3D3A72F32C57995C00EDFB4A /* RoundedTextFieldStyle.swift */,
+				3D3A733B2C5BE58B00EDFB4A /* ColorExtension.swift */,
 			);
 			path = CustomStyle;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				3D3A732A2C5A0BD300EDFB4A /* KeyConstant.swift */,
+				3D3A73392C5BDA6600EDFB4A /* PlanetConstant.swift */,
 			);
 			path = Constant;
 			sourceTree = "<group>";
@@ -299,11 +305,13 @@
 				3D3A72F62C579F2200EDFB4A /* OrbitingView.swift in Sources */,
 				3D3A72F12C5790EE00EDFB4A /* SearchComponent.swift in Sources */,
 				3D3A72EF2C577A8800EDFB4A /* NavyCardComponent.swift in Sources */,
+				3D3A733C2C5BE58B00EDFB4A /* ColorExtension.swift in Sources */,
 				3D3A72F82C579F8D00EDFB4A /* WeatherView.swift in Sources */,
 				3D3A73232C5A039E00EDFB4A /* MoonPhaseComponent.swift in Sources */,
 				3DF68D502C56B4DE0069C757 /* ContentView.swift in Sources */,
 				3DF68D612C56BC420069C757 /* Apod.swift in Sources */,
 				3D3A73252C5A066B00EDFB4A /* MoonPhaseDetail.swift in Sources */,
+				3D3A733A2C5BDA6600EDFB4A /* PlanetConstant.swift in Sources */,
 				3DF68D5F2C56BB1B0069C757 /* DashboardView.swift in Sources */,
 				3D3A73382C5B9F8D00EDFB4A /* CurrentDate.swift in Sources */,
 				3D3A72FB2C57A4C600EDFB4A /* TabItemComponent.swift in Sources */,

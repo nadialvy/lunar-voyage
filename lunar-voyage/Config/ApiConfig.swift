@@ -10,6 +10,7 @@ import Alamofire
 
 let NASE_BASE_URL="https://api.nasa.gov/planetary"
 let ASTRONOMY_API_BASE_URL="https://api.astronomyapi.com/api/v2"
+let NINJAS_API_BASE_URL="https://api.api-ninjas.com/v1"
 
 let creds = "\(ASTRONOMY_API_APP_ID):\(ASTRONOMY_API_APP_SECRET)".data(using: String.Encoding.utf8)!
 let base64Creds = creds.base64EncodedString(options: [])

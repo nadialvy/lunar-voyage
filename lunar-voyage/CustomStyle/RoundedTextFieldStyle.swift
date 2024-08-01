@@ -13,7 +13,7 @@ struct RoundedTextFieldStyle: TextFieldStyle {
         configuration
             .padding(.vertical)
             .padding(.horizontal, 24)
-            .background(Color("SnowBlue"))
+            .background(Color(.white).opacity(0.4))
             .clipShape(Capsule(style: .continuous))
             .foregroundColor(.white)
     }

@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct MoonPhaseComponent: View {
-        @EnvironmentObject var moonPhaseManager: MoonPhaseManager
-
+    @EnvironmentObject var moonPhaseManager: MoonPhaseManager
+    
     var body: some View {
         HStack{
             Image("moon")
@@ -19,18 +19,23 @@ struct MoonPhaseComponent: View {
             VStack(alignment: .leading){
                 Text("Moon Phase")
                     .font(.title)
+                    .font(.custom("Montserrat", size: 24))
+                
                     .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                     .foregroundStyle(.white)
                 Text("Click to see the details about today's moon phase")
+                    .font(.custom("Montserrat", size: 16))
                     .font(.caption)
                     .foregroundStyle(.white)
                     .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
+                
+                
             }
             .padding()
             .onTapGesture {
                 moonPhaseManager.postMoonPhase()
             }
-
+            
         }
     }
 }

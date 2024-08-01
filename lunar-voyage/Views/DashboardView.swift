@@ -13,15 +13,53 @@ struct DashboardView: View {
     var body: some View {
         NavigationView {
             ScrollView{
-                NavyCardComponent{
-                    SearchComponent()
+                SearchComponent()
+                
+                
+                ScrollView (.horizontal, showsIndicators: false){
+                    HStack{
+                        ForEach(0..<planetData.count, id: \.self) {idx in
+                            NavyCardComponent (
+                                content:
+                                    {
+                                        VStack(alignment: .leading){
+                                            Image(planetData[idx].imgUrl)
+                                                .resizable()
+                                                .scaledToFill()
+                                                .frame(width: 140, height: 140)
+                                                .padding(.horizontal, 32)
+                                                .padding(.top, 20)
+                                            VStack(alignment: .leading){
+                                                Text(planetData[idx].name)
+                                                    .foregroundStyle(.white)
+                                                    .font(.custom("Montserrat", size: 24))
+                                                    .fontWeight(.semibold)
+                                                Text(planetData[idx].shortDesc)
+                                                    .foregroundStyle(.white)
+                                                    .font(.custom("Montserrat", size: 16))
+                                                    .fontWeight(.semibold)
+                                                
+                                            }
+                                            .padding(.leading, 28)
+                                            .padding(.bottom, 20)
+                                            .padding(.top)
+                                            
+                                        }
+                                    }, linearGradient: LinearGradient(colors: [Color(hex: planetData[idx].startColor), Color(hex: planetData[idx].stopColor)], startPoint: .topLeading, endPoint: .bottomTrailing))
+                        }
+                    }
+                    
                 }
+                
                 
                 NavigationLink{
                     MoonPhaseDetail()
                 } label : {
-                    NavyCardComponent {
+                    NavyCardComponent (
+                        linearGradient: LinearGradient(colors: [Color(hex: 0x8B9096), Color(hex: 0xECE5DB)], startPoint: .topLeading, endPoint: .bottomTrailing)
+                    ){
                         MoonPhaseComponent()
+                        
                     }
                 }
                 
@@ -38,12 +76,14 @@ struct DashboardView: View {
                         copyright: nil
                     ))
                 }
-
+                
             }
-            .background(LinearGradient(colors: [Color("SnowBlue"), Color("PastelBlue"), Color("LavenderPurple")], startPoint: .top, endPoint: .bottom))
+            .background(LinearGradient(colors: [ Color("BlackGalaxy")], startPoint: .top, endPoint: .bottom))
         }
     }
 }
+
+
 
 #Preview {
     DashboardView()

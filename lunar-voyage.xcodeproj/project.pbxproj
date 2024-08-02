@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D352ADA2C5D3A9400ACC676 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D352AD92C5D3A9400ACC676 /* Planet.swift */; };
 		3D3A72EF2C577A8800EDFB4A /* NavyCardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A72EE2C577A8800EDFB4A /* NavyCardComponent.swift */; };
 		3D3A72F12C5790EE00EDFB4A /* SearchComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A72F02C5790EE00EDFB4A /* SearchComponent.swift */; };
 		3D3A72F42C57995C00EDFB4A /* RoundedTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A72F32C57995C00EDFB4A /* RoundedTextFieldStyle.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D352AD92C5D3A9400ACC676 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 		3D3A72EE2C577A8800EDFB4A /* NavyCardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavyCardComponent.swift; sourceTree = "<group>"; };
 		3D3A72F02C5790EE00EDFB4A /* SearchComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchComponent.swift; sourceTree = "<group>"; };
 		3D3A72F32C57995C00EDFB4A /* RoundedTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextFieldStyle.swift; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 			children = (
 				3D3A72FD2C57BEA600EDFB4A /* TabbedItem.swift */,
 				3DF68D602C56BC420069C757 /* Apod.swift */,
+				3D352AD92C5D3A9400ACC676 /* Planet.swift */,
 				3D3A73262C5A073800EDFB4A /* MoonPhase.swift */,
 				3D3A73282C5A07B000EDFB4A /* MoonPhaseManager.swift */,
 				3DF68D622C56BCB50069C757 /* ApodManager.swift */,
@@ -326,6 +329,7 @@
 				3D3A72F42C57995C00EDFB4A /* RoundedTextFieldStyle.swift in Sources */,
 				3D3A73272C5A073800EDFB4A /* MoonPhase.swift in Sources */,
 				3D3A73012C57C06100EDFB4A /* TabViewComponent.swift in Sources */,
+				3D352ADA2C5D3A9400ACC676 /* Planet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
